@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+}
+
+header{
+    min-height: 9vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #383c42;
+}
+header h1{
+    font-size: 1.0cm;
+    color: white;
+}
+
+main{
+    width: 100%;
+    min-height: 598px;
+    height: 560px;
+    background: linear-gradient(to top, rgb(62, 103, 214), rgb(9,61,202) );
+    display: flex;
+    justify-content: center;
+
+    box-shadow: insert 0px 2px 3px rgba( 0,0,0,0)
+}
+main form {
+    margin-top: 5%;
+    width: 50%;
+    height: 75vh;
+    background-color: rgb(0, 102, 255);
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.4) inset 0px 4px 4px rgba(0,0,0,0.25);
+    border-radius: 18px;
+    padding: 2%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: background-color 0.5s ease-in-out;
+}
+main form:hover{
+    background-color: rgb(70, 143, 253);
+}
+
+main form .boxes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form .color-boxes{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+    width: 60%;
+    height:10px;
+    padding: 25px 60px;
+    border-radius:10px;
+    outline:0;
+    top:20px ;
+    left: 14px;
+}
+main form .inputs-container{
+    margin-top: 1%;
+    position: relative;
+    width:100%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top:20px;
+}
+main form .inputs-container input{
+    width:50%;
+    height:35px;
+    padding: 8px 15px;
+    border-radius:10px;
+    outline:0;
+    align-items: center;
+}
+
+main form .inputs-container .password-container{
+    display: flex;
+    flex-direction: column;
+    width:105%;
+    height:35px;
+    padding: 8px 15px;
+    border:10px;
+    outline:0;
+    align-items: center;
+}
+
+main form .password-infos{
+    width:90%;
+    height:80px;
+    padding: 5px 1px;
+    border:0;
+    outline:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 5px;
+
+}
+
+
+main form .login-btn{
+    display: flex;
+    padding:15px 15px;
+    flex-direction: row;
+    position: relative;
+    top: 0px;
+}
+
+#setinha {
+    color: rgb(11, 0, 165);
+    font-size: 1em;
+}
+
+#esquecimento{
+    color: rgb(11, 0, 165);
+    font-size: 1em;
+}
+#cadastrar{
+    color: rgb(11, 0, 165);
+    font-size: 1em;
+}
+
+.input{
+    margin-top: 1%;
+}
+
+.checkbox-label{
+    padding: 0px 42px 0px ;  
+}
+
+.checkbox-label1{
+    padding: 0px 63px 0px 41px; 
+}
